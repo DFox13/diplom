@@ -27,10 +27,12 @@
             </div>
             <div class="nav">
                 <a href="">Главная</a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <a href="">Услуги</a>
+                <a href="">О нас</a>
+                <a href=""> Врачи</a>
+                <a href="">Контакты</a>
+                <a href="">Врачи</a>
+                <a href="">Отзывы</a>
             </div>
         </div>
         <div class="content"></div>
