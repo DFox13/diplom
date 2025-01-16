@@ -35,6 +35,10 @@
 .address{
    height: 90px;
 }
+.address a{
+    text-decoration: none;
+    color: black;
+}
 .phone{
     /* height: 204px; */
     display: flex;
