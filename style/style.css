@@ -10,20 +10,25 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    height: 80px;
 
+}
+.logo img{
+    width: 150px;
+    
 }
 .slogan{
     display: flex;
-    justify-content: space-between;
     width: 400px;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
 }
 .nav{
     background-color: #e5efef;
     padding: 20px;
     display: flex;    
     justify-content: space-evenly;
-    font-size: 20px;
+    
 }
 .nav a{
     color: black;
@@ -33,17 +38,14 @@
     color: red;
 }
 .address{
-   height: 90px;
+
+   font-size: 10px;
 }
 .address a{
     text-decoration: none;
     color: black;
 }
 .phone{
-    /* height: 204px; */
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: flex-end;
-    font-size: 20px;
+    
+
 }
