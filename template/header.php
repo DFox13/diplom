@@ -10,7 +10,7 @@
 <body>
     <div class="wrap">
         <div class="header">
-            <div class="logoslog">
+            <!-- <div class="logoslog"> -->
                 <div class="logo">
                     <img src="https://www.cstom.ru/wp-content/themes/cstom/images/logo.svg">
                 </div>
@@ -22,14 +22,14 @@
                         в выходные с 9:00 до 18:00</p>
                     </div>
                 </div>
-            </div>
-            <div class="nav">
-                <a href="/">Главная</a>
-                <a href="/services">Услуги</a>
-                <a href="/about">О нас</a>
-                <a href="/stock">Акции</a>
-                <a href="/contacts">Контакты</a>
-                <a href="/dentists">Врачи</a>
-                <a href="/reviews">Отзывы</a>
-            </div>
+            <!-- </div> -->
+        </div>
+        <div class="nav">
+            <a href="/">Главная</a>
+            <a href="/services">Услуги</a>
+            <a href="/about">О нас</a>
+            <a href="/stock">Акции</a>
+            <a href="/contacts">Контакты</a>
+            <a href="/dentists">Врачи</a>
+            <a href="/reviews">Отзывы</a>
         </div>

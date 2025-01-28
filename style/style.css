@@ -5,23 +5,13 @@
     
 }
 .header{
-    margin:  20px;
+    margin: 20px;
     padding: 10px;
-}
-.logoslog{
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    height: 80px;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.slogan{
-    display: flex;
-    width: 400px;
-    align-items: center;
-    justify-content: flex-end;
-}
 .nav{
     background-color: #e5efef;
     padding: 20px;
@@ -55,6 +45,7 @@
     align-items: center;
     justify-content: space-around;
     font-size: 17px;
+    flex-wrap: wrap;
 }
 .contacts{
     text-align: center;
