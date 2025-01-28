@@ -1,10 +1,12 @@
 .wrap{
-    max-width: 1600px;
+    max-width: 1500px;
     width: 100%;
     margin: 0 auto;
+    
 }
 .header{
     margin:  20px;
+    padding: 10px;
 }
 .logoslog{
     display: flex;
@@ -13,10 +15,7 @@
     height: 80px;
 
 }
-.logo img{
-    width: 150px;
-    
-}
+
 .slogan{
     display: flex;
     width: 400px;
@@ -28,24 +27,54 @@
     padding: 20px;
     display: flex;    
     justify-content: space-evenly;
-    
+  
 }
 .nav a{
     color: black;
     text-decoration: none;
 }
 .nav a:hover{
-    color: red;
+    color: #0c8084;
 }
 .address{
 
-   font-size: 10px;
+   font-size: 14px;
 }
 .address a{
     text-decoration: none;
     color: black;
 }
-.phone{
-    
-
+.footer{
+    background: #0c8084;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+}
+.contacts{
+    text-align: center;
+}
+#iconV {
+    font-size: 25px;
+}
+#iconOd {
+    font-size: 25px;
+}
+#iconWhats{
+    color: green;
+    font-size: 25px;
+}
+.addressInFoot a{
+    text-decoration: none;
+    color: white;
+}
+.createBy{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }

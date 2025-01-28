@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css">
 </head>
 <body>
     <div class="wrap">
@@ -17,8 +18,8 @@
                     
                     <div class="address">
                         <a href="">г. Смоленск, ул. Кирова, д. 29</a>
-                        <p>по будням с 8:30 до 21:00</p>
-                        <p>в выходные с 9:00 до 18:00</p>
+                        <p>по будням с 8:30 до 21:00</br>
+                        в выходные с 9:00 до 18:00</p>
                     </div>
                 </div>
             </div>
