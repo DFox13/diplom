@@ -24,12 +24,12 @@
                 </div>
             </div>
             <div class="nav">
-                <a href="">Главная</a>
-                <a href="">Услуги</a>
-                <a href="">О нас</a>
-                <a href=""> Врачи</a>
-                <a href="">Контакты</a>
-                <a href="">Врачи</a>
-                <a href="">Отзывы</a>
+                <a href="/">Главная</a>
+                <a href="/services">Услуги</a>
+                <a href="/about">О нас</a>
+                <a href="/stock">Акции</a>
+                <a href="/contacts">Контакты</a>
+                <a href="/dentists">Врачи</a>
+                <a href="/reviews">Отзывы</a>
             </div>
         </div>

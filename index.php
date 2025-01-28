@@ -19,12 +19,24 @@ function home() {
     include "views/home.php";
 }
 
-function create() {
-    include "views/create.php";
+function services() {
+    include "views/Services.php";
 }
 
-function delete() {
-    include "views/Delete.php";
+function about() {
+    include "views/AboutUs.php";
+}
+function stock() {
+    include "views/Stock.php";
+}
+function contacts() {
+    include "views/Contacts.php";
+}
+function dentists() {
+    include "views/Dentists.php";
+}
+function reviews() {
+    include "views/Reviews.php";
 }
 
 function defaultHandler() {

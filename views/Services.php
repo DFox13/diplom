@@ -1,3 +1,3 @@
 <?php include "template/header.php"; ?>
-        <div class="content">HOME PAGE</div>
+        <div class="content">Services PAGE</div>
 <?php include "template/footer.php";?>
