@@ -10,8 +10,7 @@
 <body>
     <div class="wrap">
         <div class="header">
-            <!-- <div class="logoslog"> -->
-                <div class="logo">
+            <div class="logo">
                     <img src="https://www.cstom.ru/wp-content/themes/cstom/images/logo.svg">
                 </div>
                 <div class="slogan">
@@ -22,7 +21,6 @@
                         в выходные с 9:00 до 18:00</p>
                     </div>
                 </div>
-            <!-- </div> -->
         </div>
         <div class="nav">
             <a href="/">Главная</a>
