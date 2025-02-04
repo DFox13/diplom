@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     </head>
 <body>
     
@@ -33,7 +34,7 @@
             <a href="/reviews">Отзывы</a>
         </div>
         
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
     <script>
         $(document).ready(function() {
     
