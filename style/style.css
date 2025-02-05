@@ -109,6 +109,7 @@
 
   .nav.open {
     display: flex;
+    margin-top: -5px;
     /* align-content: center; */
   }
   .nav.open a {

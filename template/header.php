@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="menu-button" id="menuButton">☰</div>
+        <div class="menu-button" id="menuButton">☰ <span id="valuePage"></span>  </div>
         <div class="nav" id="navbar">
             <a href="/">Главная</a>
             <a href="/services">Услуги</a>
@@ -36,6 +36,37 @@
         
     
     <script>
+
+
+        const currentUrl = window.location.href;
+        const url = new URL(currentUrl);
+        const servicesParam = url.pathname.split('/').pop(); 
+
+        if (servicesParam == ""){
+            document.getElementById('valuePage').textContent = 'Главная';
+        }
+        else if (servicesParam == "services"){
+            document.getElementById('valuePage').textContent = 'Услуги';
+        }
+        else if (servicesParam == "about"){
+            document.getElementById('valuePage').textContent = 'О нас';
+        }
+        else if (servicesParam == "stock"){
+            document.getElementById('valuePage').textContent = 'Акции';
+        }
+        else if (servicesParam == "contacts"){
+            document.getElementById('valuePage').textContent = 'Контакты';
+        }
+        else if (servicesParam == "dentists"){
+            document.getElementById('valuePage').textContent = 'Врачи';
+        }
+        else if (servicesParam == "reviews"){
+            document.getElementById('valuePage').textContent = 'Отзывы';
+        }
+
+        console.log(servicesParam);
+
+
         $(document).ready(function() {
     
             $('#menuButton').click(function() {
