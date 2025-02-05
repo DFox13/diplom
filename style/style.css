@@ -124,3 +124,30 @@
     display: block;
   }
 }
+
+.list_doctors {
+  padding: 10px 0 20px;
+}
+
+.list_doctors .one_doctor {
+  float: left;
+  width: 20%;
+  margin: 0 40px 20px 0;
+}
+.one_doctor img {
+  margin-top: 0;
+  max-height: 299px;
+  overflow: hidden;
+  border-bottom: 4px solid #0c8084;
+}
+.one_doctor img {
+  min-width: 100%;
+}
+.name {
+  font-size: 19px;
+  font-family: Gotham;
+  margin: 0;
+}
+.text {
+  margin-top: 5px;
+}

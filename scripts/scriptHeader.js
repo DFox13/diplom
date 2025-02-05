@@ -1,4 +1,3 @@
-
 const currentUrl = window.location.href;
 const url = new URL(currentUrl);
 const servicesParam = url.pathname.split('/').pop(); 
