@@ -33,7 +33,7 @@
             <a href="/dentists">Врачи</a>
             <a href="/reviews">Отзывы</a>
         </div>
-        
+        <button id="scrollToTop" style="display: none;">Вверх <i class="fa-solid fa-arrow-up"></i></button>
     
     <script src="/scripts/scriptHeader.js"></script>
 </body>
