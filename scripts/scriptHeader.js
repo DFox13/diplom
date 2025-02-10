@@ -1,6 +1,7 @@
 const currentUrl = window.location.href;
 const url = new URL(currentUrl);
 const servicesParam = url.pathname.split('/').pop(); 
+const scrollToTopButton = document.getElementById("scrollToTop");
 
 if (servicesParam == ""){
     document.getElementById('valuePage').textContent = 'Главная';
@@ -47,15 +48,6 @@ $(document).ready(function() {
 });
 
 
-
-
-
-
-
-
-const scrollToTopButton = document.getElementById("scrollToTop");
-
-
 window.onscroll = function() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     scrollToTopButton.style.display = "block";
@@ -63,7 +55,6 @@ window.onscroll = function() {
     scrollToTopButton.style.display = "none";
   }
 };
-
 
 scrollToTopButton.onclick = function() {
   window.scrollTo({
