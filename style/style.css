@@ -169,6 +169,22 @@
 
 }
 
+.a-one-doctor{
+  text-decoration: none;
+  color: #0c8084;
+}
+.a-one-doctor :hover{
+  color: orange;
+  transition: 0.3s;
+}
+.a-one-doctor img {
+  border-bottom: #0c8084 8px solid;
+  transition: border-bottom-color 0.3s;
+}
+
+.a-one-doctor img:hover {
+  border-bottom-color: orange; 
+}
 .one-doctor {
   max-width: 250px;
   width: 100%;
